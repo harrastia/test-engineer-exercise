@@ -1,0 +1,39 @@
+version: '3.6'
+
+
+x-service-inventory: &service-inventory
+  build: ./inventory_app/
+  environment:
+    DB_PATH: /app/db.json
+x-service-provider: &service-provider
+  build: ./provider_app/
+  environment:
+    DB_PATH: /app/db.json
+
+services:
+  inventory_app1:
+    <<: *service-inventory
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./inventory_app/db1.json:/app/db.json
+    environment:
+      MERCHANT_NAME: "Juicy merchant Ltd."
+      CUSTOMER_ID: 1
+
+  inventory_app2:
+    <<: *service-inventory
+    ports:
+      - "5002:5000"
+    volumes:
+      - ./inventory_app/db2.json:/app/db.json
+    environment:
+      MERCHANT_NAME: "Vitamin master Ltd."
+      CUSTOMER_ID: 2
+
+  provider_app:
+    <<: *service-provider
+    ports:
+      - "5500:5000"
+    volumes:
+      - ./provider_app/db.json:/app/db.json
