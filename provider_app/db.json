@@ -1,0 +1,59 @@
+{
+    "products": {
+        "1": {
+            "id": "apple",
+            "stock": 50
+        },
+        "2": {
+            "id": "orange",
+            "stock": 623
+        },
+        "3": {
+            "id": "cantaloupe",
+            "stock": 98
+        },
+        "4": {
+            "id": "avocado",
+            "stock": 105
+        },
+        "5": {
+            "id": "banana",
+            "stock": 442
+        },
+        "6": {
+            "id": "watermelon",
+            "stock": 80
+        },
+        "7": {
+            "id": "pear",
+            "stock": 344
+        }
+    },
+    "customers": {
+        "1": {
+            "name": "Juicy merchant Ltd.",
+            "base_url": "http://inventory_app1:5000"
+        },
+        "2": {
+            "name": "Vitamin master Ltd.",
+            "base_url": "http://inventory_app2:5000"
+        }
+    },
+    "orders": {
+        "1": {
+            "customer": 1,
+            "product": 1,
+            "quantity": 10
+        },
+        "2": {
+            "customer": 1,
+            "product": 3,
+            "quantity": 20
+        },
+        "3": {
+            "customer": 2,
+            "product": 6,
+            "quantity": 15
+        }
+    }
+}

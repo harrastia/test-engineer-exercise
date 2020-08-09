@@ -1,0 +1,28 @@
+{
+    "items": {
+        "1": {
+            "id": "banana",
+            "name": "Banana",
+            "stock": 13,
+            "ordered": 0
+        },
+        "2": {
+            "id": "orange",
+            "name": "Orange",
+            "stock": 76,
+            "ordered": 0
+        },
+        "3": {
+            "id": "watermelon",
+            "name": "Watermelon",
+            "stock": 12,
+            "ordered": 15
+        },
+        "4": {
+            "id": "pear",
+            "name": "Pear",
+            "stock": 54,
+            "ordered": 0
+        }
+    }
+}

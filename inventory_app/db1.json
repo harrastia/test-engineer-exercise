@@ -1,0 +1,28 @@
+{
+    "items": {
+        "1": {
+            "id": "apple",
+            "name": "Apple",
+            "stock": 50,
+            "ordered": 10
+        },
+        "2": {
+            "id": "orange",
+            "name": "Orange",
+            "stock": 30,
+            "ordered": 0
+        },
+        "3": {
+            "id": "cantaloupe",
+            "name": "Cantaloupe",
+            "stock": 10,
+            "ordered": 20
+        },
+        "4": {
+            "id": "avocado",
+            "name": "Avocado",
+            "stock": 17,
+            "ordered": 0
+        }
+    }
+}
