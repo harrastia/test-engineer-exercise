@@ -62,7 +62,7 @@ Merchant 1 after the delivery (and a browser refresh) will see the stock increas
 
 ## Exercise
 
-The precise exercise will be delivered to you together with the referene to this
+The precise exercise will be delivered to you together with the reference to this
 repository. If any code modifications are done as part of it, zip the results
-and send back via email. In order to preserve anonimity between candidates, please
+and send back via email. In order to preserve anonymity between candidates, please
 do not create Pull requests.
