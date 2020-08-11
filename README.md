@@ -38,6 +38,28 @@ Frontends are implemented with Mithriljs.
 The two services communicate via API endpoints and update their databases
 when communication is successful.
 
+## Use case example walkthrough
+
+Merchant 1 (https://localhost:5001). Places an order for a product
+
+![Step1](doc/images/usecase_walkthrough/step1.png)
+
+Merchant 1 sees the order placed and the quantity ordered incremented
+
+![Step2](doc/images/usecase_walkthrough/step2.png)
+
+The Provider will see the order in their order list
+
+![Step3](doc/images/usecase_walkthrough/step3.png)
+
+When the provider delivers the order (Successfully) will see the stock decreased
+
+![Step4](doc/images/usecase_walkthrough/step4.png)
+
+Merchant 1 after the delivery (and a browser refresh) will see the stock increased and ordered decreased
+
+![Step5](doc/images/usecase_walkthrough/step5.png)
+
 ## Exercise
 
 The precise exercise will be delivered to you together with the referene to this
